@@ -1,0 +1,16 @@
+<head>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<div>
+<h1><strong>Hello Stupid!</strong></h1>
+  <div class="border">
+    <h2> <%= params[:ask] %></h2>
+      <p><%= @answer %><br>
+          - Stupid Coach
+      </p>
+  </div class="link">
+  <%= link_to 'Ask Another Question', ask_path %>
+</div>
